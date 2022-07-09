@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charcet="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Урок 16. Изучение css препроцессоры (SASS/SCSS).Joomhost.psd.</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <picture>
+                            <source type="webp/image" srcset="images/logo.webp">
+                            <img src="images/logo.png" alt="Logo">
+                        </picture>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Whmcs-Bridge
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Hosting
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Pages
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__btn" type="button">
+                        <span class="header__line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hosting">
+                <div class="wrapper">
+                    <div class="hosting__inner">
+                        <div class="hosting__content">
+                            <h2 class="hosting__suptitle">Simple – Easy to use – 10x faster!</h2>
+                            <h1 class="hosting__title">The Best Web Hosting</h1>
+                            <p class="hosting__text-1">Starting at $7.99 $3.95/month*</p>
+                            <p class="hosting__text-2">Enter  your website to see how we can help your business grow ...</p>
+                            <ul class="hosting__list">
+                                <li class="hosting__item">FREE Domain</li>
+                                <li class="hosting__item">FREE Site Builders</li>
+                                <li class="hosting__item">1-Click <span>WordPress Install</span></li>
+                                <li class="hosting__item">24/7 Support</li>
+                            </ul>
+                            <a href="#" class="hosting__link">Get Started Now!</a>
+                            <p class="hosting__text-explanation">*Special intro offer and 30-day money-back guarantee</p>
+                        </div>
+                        <div class="hosting__image">
+                            <picture>
+                                <source type="webp/image" srcset="images/hosting-image-1.webp">
+                                <img src="images/hosting-image-1.png" alt="super hero">
+                            </picture>
+                            <div class="hosting__circle">
+                                <div class="hosting__info">Starting at</div>
+                                <div class="hosting__price">$7.99</div>
+                                <div class="hosting__currency">/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="price">
+                <div class="wrapper">
+                    <div class="price__inner">
+                        <h2 class="price__title">Pay for what you <span>actually</span> use. No hidden charge!</h2>
+                        <p class="price__text">SEO WP built using Live Composer — a front-end page builder for <span class="price__color-1">WordPressK</span>. Live Composer is a new generation of the <span class="price__color-1">visual editors</span> for your website. Using simple drag and drop interface you can create any page layout. <span class="price__color-2">No coding skills required</span></p>
+                        <ul class="price__list">
+                            <li class="price__item">
+                                <h3 class="price__caption price__caption--icon-1">Personal</h3>
+                                <p class="price__info">I think your best bet would be to start or join a startup. That’s been a reliable way to get rich for hundreds of years.</p>
+                                <ul class="price__item-list">
+                                    <li class="price__point">10GB Space</li>
+                                    <li class="price__point">1 Free Domain</li>
+                                    <li class="price__point">300GB SSD Disk</li>
+                                    <li class="price__point">Custom domain</li>
+                                </ul>
+                                <a href="#" class="price__link">Get Started Now</a>
+                                <div class="price__top-block">
+                                    €<span class="price__big">190</span><span class="price__small">/mo</span>
+                                </div>
+                            </li>
+                            <li class="price__item">
+                                <h3 class="price__caption price__caption--icon-2">Enterprise</h3>
+                                <p class="price__info">I think your best bet would be to start or join a startup. That’s been a reliable way to get rich for hundreds of years.</p>
+                                <ul class="price__item-list">
+                                    <li class="price__point">10GB Space</li>
+                                    <li class="price__point">1 Free Domain</li>
+                                    <li class="price__point">300GB SSD Disk</li>
+                                    <li class="price__point">Custom domain</li>
+                                </ul>
+                                <a href="#" class="price__link">Get Started Now</a>
+                                <div class="price__top-block">
+                                    €<span class="price__big">499</span><span class="price__small">/mo</span>
+                                </div>
+                            </li>
+                            <li class="price__item">
+                                <h3 class="price__caption price__caption--icon-3">Business</h3>
+                                <p class="price__info">I think your best bet would be to start or join a startup. That’s been a reliable way to get rich for hundreds of years.</p>
+                                <ul class="price__item-list">
+                                    <li class="price__point">10GB Space</li>
+                                    <li class="price__point">1 Free Domain</li>
+                                    <li class="price__point">300GB SSD Disk</li>
+                                    <li class="price__point">Custom domain</li>
+                                </ul>
+                                <a href="#" class="price__link">Get Started Now</a>
+                                <div class="price__top-block">
+                                    €<span class="price__big">999</span><span class="price__small">/mo</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <div class="wrapper">
+                    <div class="slider__inner">
+                        <h2 class="slider__title">What <span>People</span> Say About Us</h2>
+                        <div class="slider__wrap">
+                            <input type="radio" class="slider__input" name="slide" id="point-1">
+                            <input type="radio" class="slider__input" name="slide" id="point-2" checked>
+                            <input type="radio" class="slider__input" name="slide" id="point-3">
+                            <div class="slider__boxs">
+                                <div class="slider__box slider__box--content-1 box">
+                                    <div class="box__block">
+                                        <div class="box__images">
+                                            <picture>
+                                                <source type="image/webp" srcset="images/box-images-1.webp">
+                                                <img src="images/box-images-1.png" alt="avatar Captain America">
+                                            </picture>
+                                        </div>
+                                        <div class="box__info">
+                                            <p class="box__text">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                            </p>
+                                            <div class="box__name">
+                                                <span>Captain America</span> - unemployed
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box__block">
+                                        <div class="box__images">
+                                            <picture>
+                                                <source type="image/webp" srcset="images/box-images-2.webp">
+                                                <img src="images/box-images-2.png" alt="avatar Tony Stark">
+                                            </picture>
+                                        </div>
+                                        <div class="box__info">
+                                            <p class="box__text">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                            </p>
+                                            <div class="box__name">
+                                                <span>Tony Stark</span> - CEO Stark Industries
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__box slider__box--content-2 box">
+                                    <div class="box__block">
+                                        <div class="box__images">
+                                            <picture>
+                                                <source type="image/webp" srcset="images/box-images-1.webp">
+                                                <img src="images/box-images-1.png" alt="avatar Captain America">
+                                            </picture>
+                                        </div>
+                                        <div class="box__info">
+                                            <p class="box__text">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                            </p>
+                                            <div class="box__name">
+                                                <span>Captain America</span> - unemployed
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box__block">
+                                        <div class="box__images">
+                                            <picture>
+                                                <source type="image/webp" srcset="images/box-images-2.webp">
+                                                <img src="images/box-images-2.png" alt="avatar Tony Stark">
+                                            </picture>
+                                        </div>
+                                        <div class="box__info">
+                                            <p class="box__text">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                            </p>
+                                            <div class="box__name">
+                                                <span>Tony Stark</span> - CEO Stark Industries
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__box slider__box--content-3 box">
+                                    <div class="box__block">
+                                        <div class="box__images">
+                                            <picture>
+                                                <source type="image/webp" srcset="images/box-images-1.webp">
+                                                <img src="images/box-images-1.png" alt="avatar Captain America">
+                                            </picture>
+                                        </div>
+                                        <div class="box__info">
+                                            <p class="box__text">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                            </p>
+                                            <div class="box__name">
+                                                <span>Captain America</span> - unemployed
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box__block">
+                                        <div class="box__images">
+                                            <picture>
+                                                <source type="image/webp" srcset="images/box-images-2.webp">
+                                                <img src="images/box-images-2.png" alt="avatar Tony Stark">
+                                            </picture>
+                                        </div>
+                                        <div class="box__info">
+                                            <p class="box__text">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                            </p>
+                                            <div class="box__name">
+                                                <span>Tony Stark</span> - CEO Stark Industries
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__control">
+                                <label for="point-1" class="slider__label slider__label-1"></label>
+                                <label for="point-2" class="slider__label slider__label-2"></label>
+                                <label for="point-3" class="slider__label slider__label-3"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="clients">
+                <div class="wrapper">
+                    <div class="clients__inner">
+                        <h2 class="visually-hidden">Our clients</h2>
+                        <ul class="clients__list">
+                            <li class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/client-logo-1.webp">
+                                        <img src="images/client-logo-1.png" alt="logo jQuery">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/client-logo-2.webp">
+                                        <img src="images/client-logo-2.png" alt="logo teespring">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/client-logo-3.webp">
+                                        <img src="images/client-logo-3.png" alt="logo hp">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/client-logo-4.webp">
+                                        <img src="images/client-logo-4.png" alt="logo salesforce">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/client-logo-5.webp">
+                                        <img src="images/client-logo-5.png" alt="logo MediaMath">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <picture>
+                                        <source type="image/webp" srcset="images/client-logo-6.webp">
+                                        <img src="images/client-logo-6.png" alt="logo ericsson">
+                                    </picture>
+                                </a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__inner">
+                    <div class="footer__block footer__block--logo-image ">
+                        <a href="#" class="footer__logo-link">
+                            <picture>
+                                <source type="image/webp" srcset="images/logo-footer.webp">
+                                <img src="images/logo-footer.png" alt="Logo">
+                            </picture>
+                        </a>
+                        <p class="footer__text">Hosting Website Builder is a big library of pre-designed web elements which help you create website in few minutes.</p>
+                    </div>
+                    <div class="footer__block footer__block--nav">
+                        <h2 class="footer__title">Knowledge Base</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Tutorials</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Get Paid to Write</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Questions</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Meetups</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Referral Program</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Shop</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Droplets for Demos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block footer__block--menu">
+                        <h2 class="footer__title">Company</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Hosting.com Blog</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Affiliate Terms & Conditions</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__block footer__block--form">
+                        <h2 class="footer__title footer__title--form">Quick Contact</h2>
+                        <form action="#" class="footer__form">
+                            <div class="footer__box">
+                                <label for="name-fields" class="visually-hidden">Name</label>
+                                <input type="text" class="footer__input" name="username" id="name-fields" placeholder="Name">
+                            </div>
+                            <div class="footer__box">
+                                <label for="email-fields" class="visually-hidden">Email Address</label>
+                                <input type="text" class="footer__input" name="email" id="email-fields" placeholder="Email Address">
+                            </div>
+                            <div class="footer__box">
+                                <label for="subject-fields" class="visually-hidden">Subject</label>
+                                <input type="text" class="footer__input" name="subject" id="subject-field" placeholder="Subject">
+                            </div>
+                            <div class="footer__box">
+                                <label for="message-fields" class="visually-hidden">Message</label>
+                                <textarea class="footer__textarea" name="text" id="message-fields" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="footer__btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
